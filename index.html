@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="am">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ቤርሳቤህ አንተነህ & ብርሃነመስቀል - Wedding Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&family=Hind+Siliguri:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/hh-lemd-mono@4.5.9/index.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading/Opening Invitation Screen -->
+    <div class="invitation-loader" id="invitation-loader">
+        <div class="invitation-card">
+            <div class="invitation-content">
+                <div class="invitation-header">
+                    <h1 class="invitation-title fade-in">ቤርሳቤህ አንተነህ</h1>
+                    <div class="invitation-and">&</div>
+                    <h1 class="invitation-title fade-in">ብርሃነመስቀል ኪዳኔ</h1>
+                </div>
+                <div class="invitation-subtitle fade-in-delay">
+                    <p>በክብር ወደ ሰርጋችን እንጋብዛችሁ</p>
+                </div>
+                <div class="invitation-details fade-in-delay-2">
+                    <div class="detail-item">
+                        <span class="detail-icon">📅</span>
+                        <span class="detail-text">ግንቦት 2, 2018 ዓ.ም</span>
+                    </div>
+                                                        </div>
+                <button class="enter-button fade-in-delay-3" id="enter-button">
+                    <span class="button-text">ይግቡ</span>
+                    <div class="button-decoration"></div>
+                </button>
+            </div>
+            <div class="invitation-decoration">
+                <div class="decoration-corner top-left"></div>
+                <div class="decoration-corner top-right"></div>
+                <div class="decoration-corner bottom-left"></div>
+                <div class="decoration-corner bottom-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">ብርሃነመስቀል & ቤርሲ</div>
+                        <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" style="background: url('Ethiopian orthodox wedding.jfif') center/cover no-repeat;">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-names fade-in">
+                <h1 class="couple-names">ቤርሳቤህ አንተነህ</h1>
+                <div class="and-symbol">&</div>
+                <h1 class="couple-names">ብርሃነመስቀል ኪዳኔ</h1>
+            </div>
+            <p class="hero-subtitle fade-in-delay">በተቀደሰው የጋብቻ ሥርዓት ፍቅራችንን እንድናጠናክር እግዚአብሔር ቸር አድርጎናል። በሠርጋችን ላይ እንድትገኙ በትህትና እንጠይቃለን። </p>
+            <div class="scroll-indicator fade-in-delay-2">
+                <div class="scroll-dot"></div>
+                <div class="scroll-text">Scroll Down</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Story Section -->
+    <section id="story" class="love-story">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-text fade-in">
+                    <h2></h2>
+                    <p style="text-align: center;">ኑ ተመልከኡልኝ የአማኑኤልን ሥራ<br>
+                         ኑ ተመልከቱልኝ የእመቤቴን ሥራ<br>
+                        <br> ሙሽሮች ሁኑ አብርሃም <br>
+                        ኑ ተመልከኡልኝ የአማኑኤልን ሥራ<br>
+                        ኑ ተመልከቱልኝ የእመቤቴን ሥራ<br>
+                        በሠርጋችን ተገኘች ከአማኑኤል ጋራ<br>
+                        በሠርጋችን ተገኘች ከመላዕክት ጋራ<br>
+                </div>
+                <div class="story-image fade-in">
+                    <div class="image-placeholder">
+                        <img src="download (24).jfif" alt="Love Story">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calendar Section -->
+    <section id="calendar" class="calendar-section">
+        <div class="calendar-bg" style="background: url('Ethiopian Orthodox Weddings_ A Celebration of Faith and Love ✨.jfif') center/cover no-repeat;">
+            <div class="calendar-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="calendar-content fade-in">
+                <h2>የሰርግ ቀን</h2>
+                <div class="calendar-widget">
+                    <div class="calendar-header">
+                        <span class="month-year">ግንቦት 2018</span>
+                    </div>
+                    <div class="calendar-grid">
+                        <div class="day-header">ሰ</div>
+                        <div class="day-header">ማ</div>
+                        <div class="day-header">ረ</div>
+                        <div class="day-header">ሐ</div>
+                        <div class="day-header">ዕ</div>
+                        <div class="day-header">ግ</div>
+                        <div class="day-header">እ</div>
+                        <!-- Calendar days -->
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day empty"></div>
+                        <div class="calendar-day">1</div>
+                        <div class="calendar-day wedding-date" data-date="2">2</div>
+                        <div class="calendar-day">3</div>
+                        <div class="calendar-day">4</div>
+                        <div class="calendar-day">5</div>
+                        <div class="calendar-day">6</div>
+                        <div class="calendar-day">7</div>
+                        <div class="calendar-day">8</div>
+                        <div class="calendar-day">9</div>
+                        <div class="calendar-day">10</div>
+                        <div class="calendar-day">11</div>
+                        <div class="calendar-day">12</div>
+                        <div class="calendar-day">13</div>
+                        <div class="calendar-day">14</div>
+                        <div class="calendar-day">15</div>
+                        <div class="calendar-day">16</div>
+                        <div class="calendar-day">17</div>
+                        <div class="calendar-day">18</div>
+                        <div class="calendar-day">19</div>
+                        <div class="calendar-day">20</div>
+                        <div class="calendar-day">21</div>
+                        <div class="calendar-day">22</div>
+                        <div class="calendar-day">23</div>
+                        <div class="calendar-day">24</div>
+                        <div class="calendar-day">25</div>
+                        <div class="calendar-day">26</div>
+                        <div class="calendar-day">27</div>
+                        <div class="calendar-day">28</div>
+                        <div class="calendar-day">29</div>
+                        <div class="calendar-day">30</div>
+                        <div class="calendar-day">31</div>
+                    </div>
+                </div>
+                <div class="date-details">
+                    <p class="date-text">ቀን: <span class="highlight">ግንቦት 2, 2018 ዓ.ም</span></p>
+                    <p class="time-text">ሰዓት: <span class="highlight">ከቀኑ 7:30 </span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Event Details Section -->
+    <section id="details" class="event-details">
+        <div class="container">
+            <div class="details-grid">
+                <div class="detail-card fade-in">
+                    <div class="card-icon">📍</div>
+                    <h3>ቦታ</h3>
+                    <button onclick="window.open('https://maps.app.goo.gl/n4mBnBMNRrMyGAsc6', '_blank')" class="location-btn">ኤሊያና ሆቴል</button>
+                </div>
+                <div class="detail-card fade-in">
+                    <div class="card-icon">📅</div>
+                    <h3>ቀን</h3>
+                    <p>ግንቦት 2, 2018 ዓ.ም</p>
+                </div>
+                <div class="detail-card fade-in">
+                    <div class="card-icon">⏰</div>
+                    <h3>ሰዓት</h3>
+                    <p>7:30 </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sequence of Events Section -->
+    <section id="events" class="events-section">
+        <div class="container">
+            <h2 class="section-title fade-in">የዝግጅት ዝግጅቶች</h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">👥</div>
+                        <div class="timeline-time">7:30 </div>
+                        <div class="timeline-title">እንግዶች መቀበል</div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🎵</div>
+                        <div class="timeline-time">8:00 </div>
+                        <div class="timeline-title">የሙሽሮች መግቢያ</div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">💍</div>
+                        <div class="timeline-time">8:20 </div>
+                        <div class="timeline-title">ጽሎት እና ትምህርት</div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                         <div class="timeline-icon">🍽️</div>
+                        <div class="timeline-time">8:50 </div>
+                        <div class="timeline-title">የማዕድ ሰዓት</div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon"></div>
+                        <div class="timeline-time">9:40 ከሰዓት</div>
+                        <div class="timeline-title">በሚዜዎች እና አጃቢዎች ያሬዳዊ ዝማሬ</div>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon">🎂</div>
+                        <div class="timeline-time">10:20 ከሰዓት</div>
+                        <div class="timeline-title">ኬክ የመቁረስ እና የጋራ </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title fade-in" style="font-family: 'HH Lemd Mono', monospace;">የእኛ ትርጉም</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="Ethiopian Orthodox Weddings_ A Celebration of Faith and Love ✨.jfif" alt="Gallery 2">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="Ethiopian orthodox wedding.jfif" alt="Gallery 3">
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="download (24).jfif" alt="Gallery 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="rsvp-section">
+        <div class="container">
+            <div class="rsvp-content fade-in">
+                <h2>እንግዲ</h2>
+                <p>እባክዎ መገኘትዎን ያረጋግጡ</p>
+                <form class="rsvp-form" id="rsvp-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="ስም" required>
+                    </div>
+                    <div class="form-group radio-group">
+                        <label class="radio-label">እባክዎ መገኘትዎን ያረጋግጡ?</label>
+                        <div class="radio-options">
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="yes" required>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">እገኛለሁ</span>
+                            </label>
+                            <label class="radio-option">
+                                <input type="radio" name="attendance" value="no" required>
+                                <span class="radio-custom"></span>
+                                <span class="radio-text">አልመጣም</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="submit-btn">አስገባ</button>
+                </form>
+                <div class="form-message" id="form-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Toggle -->
+    <div class="music-toggle" id="music-toggle">
+        <div class="music-icon">🎵</div>
+        <div class="music-text">Music</div>
+    </div>
+
+    <!-- Hidden YouTube iframe for background music -->
+    <iframe id="youtube-player" style="display: none;" 
+            src="https://www.youtube.com/embed/UidQpOM7xVQ?enablejsapi=1&autoplay=1&loop=1&playlist=UidQpOM7xVQ&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&cc_load_policy=0&fs=0&rel=0"
+            allow="autoplay; encrypted-media"></iframe>
+    
+    <script src="script.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</body>
+</html>
